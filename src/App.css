@@ -1,0 +1,57 @@
+.text-green-400 {
+    color: #22c55e;
+  }
+  
+  .text-red-400 {
+    color: #ef4444;
+  }
+  
+  .text-yellow-400 {
+    color: #facc15;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+
+.Element {
+    list-style: none;
+    li {
+        list-style: none;
+        list-style: none;
+    }
+
+    border: 2px solid #4a5568;
+    transition: box-shadow 0.2s;
+}
+
+
+
+
+button:disabled {
+  cursor: not-allowed;
+}
+button:disabled:hover {
+  cursor: not-allowed;
+}
+
+
+
+.edge-association {
+  stroke: blue;
+}
+
+.edge-aggregation {
+  stroke: gray;
+  marker-end: url(#hollow-diamond);
+}
+
+.edge-composition {
+  stroke: black;
+  marker-end: url(#filled-diamond);
+}
+
+
+
+
